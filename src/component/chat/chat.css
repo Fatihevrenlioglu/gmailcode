@@ -1,0 +1,81 @@
+.chat {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 275px auto 120px;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+    /* background-color: antiquewhite; */
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 12px;
+    height: 46px;
+}
+
+.chat:hover {
+    box-shadow: 5px 5px 4px rgba(128, 128, 128, 0.132);
+    cursor: pointer;
+}
+
+.name > p {
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 0.98rem;
+    color: #354b4e;
+    margin-left: 5px;
+}
+
+.messege {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 30px;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 35px;
+    height: 46px;
+}
+
+.messege > h6 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.98rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+
+.messege > p {
+    font-size: 0.98rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 880px;
+    font-family: sans-serif;
+}
+
+.messege > p > span {
+    color: grey;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+}
+
+.time > p {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #354b4e;
+}

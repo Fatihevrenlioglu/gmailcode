@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: abhi;
+    src: url("./assets/font/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: abhi2;
+    src: url("./assets/font/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: bold;
+    src: url("./assets/font/Roboto-Bold.ttf");
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.body_app {
+    display: grid;
+    grid-template-columns: 285px auto 60px;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    transition: all linear 0.1s;
+}
+
+.body_app2 {
+    display: grid;
+    grid-template-columns: 80px auto 60px;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    transition: all linear 0.1s;
+}

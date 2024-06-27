@@ -1,0 +1,32 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f6f8fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_container {
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login_container > img {
+    width: 260px;
+    margin-bottom: 30px;
+}
+
+.login_container > button {
+    background-color: #1b61d1 !important;
+    color: white !important;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}

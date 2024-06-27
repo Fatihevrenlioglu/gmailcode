@@ -1,0 +1,153 @@
+.body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 130%;
+    position: relative;
+}
+
+.body_container {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.body_header {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 12px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 999;
+}
+
+.body_header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_container1 {
+    display: flex;
+    align-items: center;
+}
+
+.header_container2 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.body_header_right {
+    display: flex;
+    align-items: center;
+}
+
+.right_container {
+    display: flex;
+    align-items: center;
+}
+
+.para {
+    padding: 10px;
+    transition: all linear 0.2s;
+    color: rgba(0, 0, 0, 0.512);
+    margin-right: 8px;
+}
+
+.para > p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.para:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.bodyheader2 {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.header2_primary {
+    width: 275px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    justify-content: flex-start;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.header2_primary:hover {
+    background-color: whitesmoke;
+}
+
+.header2_primary::before {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #0b57d0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.header2_primary > h4 {
+    font-family: sans-serif;
+    color: #0b57d0;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.header2_promotion {
+    width: 275px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.header2_promotion:hover {
+    background-color: whitesmoke;
+}
+
+.header2_promotion > h4 {
+    font-family: sans-serif;
+    color: #5e6060;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.header2_social {
+    width: 275px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.header2_social:hover {
+    background-color: whitesmoke;
+}
+
+.header2_social > h4 {
+    font-family: sans-serif;
+    color: #5e6060;
+    font-weight: 600;
+    margin-left: 15px;
+}

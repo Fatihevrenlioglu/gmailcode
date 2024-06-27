@@ -1,0 +1,66 @@
+.header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 270px auto 220px;
+    height: 7%;
+    padding: 10px 15px;
+    /* border-bottom: 1px solid whitesmoke; */
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_left svg {
+    font-size: 28px;
+}
+
+.header_left > img {
+    margin-left: 10px;
+    width: 120px;
+}
+
+.header_middle {
+    display: flex;
+    flex: 0.67;
+    align-items: center;
+}
+
+.search_mail {
+    background-color: #eaf1fb;
+    border-radius: 30px;
+    display: flex;
+    flex: 0.67;
+    height: 55px;
+    padding: 6px 10px;
+}
+
+.search_mail > input {
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    /* margin-left: 5px; */
+}
+
+.search_mail > input::placeholder {
+    font-size: 17px;
+}
+
+.search_mail svg {
+    font-size: 28px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.header_right svg {
+    font-size: 28px;
+}

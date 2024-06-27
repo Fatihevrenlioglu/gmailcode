@@ -1,0 +1,155 @@
+.compose {
+    position: absolute;
+    min-width: 620px;
+    height: 34vw;
+    background-color: aqua;
+    bottom: 0px;
+    right: 82px;
+    z-index: 100;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.294);
+    background-color: white;
+    display: grid;
+    grid-template-rows: 48px auto 60px;
+    align-items: center;
+}
+
+.composeheader {
+    width: 100%;
+    background-color: #f2f6fc;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 17px;
+}
+
+.composeheader_left {
+    display: flex;
+    align-items: center;
+}
+
+.composeheader_left > p {
+    font-family: sans-serif;
+}
+
+.composeheader_right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #e4e9ed;
+}
+
+.compose_input {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0px 17px;
+    overflow: hidden;
+}
+
+.compose_input > form {
+    width: 100%;
+}
+
+.body_input {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 100%;
+}
+
+.body_input > input,
+textarea {
+    height: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    font-size: 15px;
+}
+
+.body_input textarea {
+    height: auto;
+    padding-top: 10px;
+}
+
+.compose_footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 17px;
+}
+
+.footer_left {
+    display: flex;
+    align-items: center;
+}
+
+.footer_left > button {
+    outline: none;
+    border: none;
+    background-color: #1b61d1;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.footer_left > button > svg {
+    margin-left: 10px;
+}
+
+.footer_left > svg {
+    font-size: 32px;
+    margin-left: 10px;
+    border-radius: 3px;
+    color: gray;
+    cursor: pointer;
+    padding: 4px;
+    transition: 0.2s linear 0s;
+}
+
+.footer_left > svg:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.footer_right {
+    display: flex;
+    align-items: center;
+}
+
+.footer_right > svg {
+    font-size: 32px;
+    margin-left: 10px;
+    border-radius: 3px;
+    color: gray;
+    cursor: pointer;
+    padding: 4px;
+    transition: 0.2s linear 0s;
+}
+
+.footer_right > svg:hover {
+    background-color: whitesmoke;
+    color: black;
+}

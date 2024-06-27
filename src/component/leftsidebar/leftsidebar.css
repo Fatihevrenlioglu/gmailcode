@@ -1,0 +1,90 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-right: 17px;
+    height: 131%;
+}
+
+.composebtn {
+    padding: 17px 20px !important;
+    border-radius: 18px !important;
+    max-width: 160px;
+    background-color: #c2e7ff !important;
+    color: #001d35 !important;
+    margin-left: 10px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    font-family: bold !important;
+    text-transform: none !important;
+    transition: all linear 0.1s !important;
+}
+
+.composebtn svg {
+    margin-right: 10px;
+}
+
+.composebtn:hover {
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* background-color: #d3e3fd; */
+    cursor: pointer;
+    padding: 0px 15px;
+    padding-left: 25px;
+    transition: all linear 0.1s;
+}
+
+.options:hover {
+    background-color: #eaebef;
+}
+
+.options > svg {
+    width: 30px;
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+}
+
+.options h2 {
+    margin-left: 15px;
+    font-size: 15.5px;
+    flex: 1;
+    font-family: abhi2;
+    letter-spacing: 1px;
+}
+
+.active {
+    background-color: #d3e3fd;
+}
+
+.active svg {
+    color: black;
+}
+
+.active p {
+    font-family: bold;
+    font-size: 14px;
+}
+
+.active > h2 {
+    color: black;
+    font-family: bold;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 28px;
+    padding-left: 30px;
+    font-family: bold;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.632);
+}

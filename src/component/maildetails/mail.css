@@ -1,0 +1,104 @@
+.mailbox {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 130%;
+    position: relative;
+}
+
+.mailheader {
+    height: 56px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.071);
+    border-top: 2px solid rgba(128, 128, 128, 0.071);
+    padding: 0px 20px;
+}
+
+.mail_options {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.mail_para {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.para_container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.mail_para > p {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: sans-serif;
+}
+
+.mail_header2 {
+    height: 56px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.071);
+    padding: 0px 20px;
+}
+
+.mailheader_left {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    overflow: hidden;
+}
+
+.mailheader_left > span {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    font-family: sans-serif;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mailheader_left > span > p {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mailheader_right {
+    display: flex;
+    align-items: center;
+}
+
+.right_options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right_para {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 15px;
+}

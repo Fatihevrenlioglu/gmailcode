@@ -1,0 +1,26 @@
+.rightsidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 132%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.top_border {
+    border-top: 1px solid rgba(0, 0, 0, 0.126);
+    margin-top: 5px;
+    padding-top: 28px;
+}
+
+.down {
+    display: flex;
+    align-items: end;
+}
